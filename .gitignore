@@ -1,0 +1,6 @@
+# MySQL 데이터 파일 무시
+practice3/db/mysql/data/
+# docker-compose로 생성된 DB 관련 폴더 무시
+**/mysql/data/
+*.sock
+*.pid
